@@ -7,16 +7,16 @@
 // =======================================================
 // CONFIGURACIÓN DE BASE DE DATOS
 // =======================================================
-define('DB_HOST', 'YOUR_DATABASE_HOST');           // Ejemplo: 'localhost' o 'mysql.example.com'
-define('DB_USERNAME', 'YOUR_DATABASE_USERNAME');   // Tu usuario de base de datos
-define('DB_PASSWORD', 'YOUR_DATABASE_PASSWORD');   // Tu contraseña de base de datos
-define('DB_NAME', 'YOUR_DATABASE_NAME');           // Nombre de tu base de datos
+define('DB_HOST', 'dpg-d3420324d50c73em924g-a');           // Ejemplo: 'localhost' o 'mysql.example.com'
+define('DB_USERNAME', 'cc_checker_db_user');   // Tu usuario de base de datos
+define('DB_PASSWORD', 'XLsHUARmd2hJ75KqO4A12BWLZqlxiJUY');   // Tu contraseña de base de datos
+define('DB_NAME', 'cc_checker_db');           // Nombre de tu base de datos
 
 // =======================================================
 // CONFIGURACIÓN DEL BOT DE TELEGRAM
 // =======================================================
-$botToken = "YOUR_BOT_TOKEN_HERE";                 // Token de tu bot de Telegram (@BotFather)
-$Mi_Id = "YOUR_TELEGRAM_USER_ID";                  // Tu ID de usuario de Telegram
+$botToken = "8281384312:AAG1UsQkO3PpV3C3Q3c4nyxCKCnNJ9VWhRg";                 // Token de tu bot de Telegram (@BotFather)
+$Mi_Id = "5218397363";                  // Tu ID de usuario de Telegram
 $website = "https://api.telegram.org/bot" . $botToken;
 
 // =======================================================
